@@ -90,6 +90,8 @@ run server
 
 ```sh
   npm start
+  please run react server at port 3002 due CORS policies and API consumption
+
 ```
 
 ### Run tests
@@ -98,7 +100,7 @@ To run tests, run the following command:
 
 Run the following command
 ```sh
-  npx stylehint "**/*.{css,scss}"
+  npx stylelint "**/*.{css,scss}"
 ```
 
 ```sh
