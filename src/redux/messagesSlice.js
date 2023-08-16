@@ -6,7 +6,7 @@ const initialState = {
   error: '',
 };
 
-const url = 'http://localhost:3001/api/v1/messages';
+const url = 'http://localhost:3000/api/v1/greetings';
 
 export const getMessages = createAsyncThunk('messages/fetchMessages', async () => {
   const response = await fetch(`${url}`);
